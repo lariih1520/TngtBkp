@@ -1,0 +1,178 @@
+/** 
+	Data: 08/02/2018
+	Objetivo: Estilização da página index.
+ **/
+
+
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: black;
+}
+
+#principal_index{
+    width: 99.5%;
+	min-width:1000px;
+	height:600px;
+    overflow: hidden;
+    margin: 25px auto 0 auto;
+    box-shadow: 0px 1px 0px black;
+	border-bottom:solid 2px white;
+}
+
+#introducao{
+    position: absolute;
+    width:365px;
+	height:478px;
+    margin-left: 35%;
+    padding: 10px;
+    color:black;
+    font-size: 22px;
+    text-align: center;
+	border:solid 1px transparent;
+    text-shadow: 1px 1px 2px black;
+}
+#introducao p{
+    font-size: 24px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#introducao p.alerta{
+    color: black;
+    font-size: 20px;
+    text-shadow: 0px 0px 3px red;
+}
+.hidediv{
+    visibility: hidden;
+}
+.menu_index{
+    width:200px;
+	height:478px;
+	border:solid 1px transparent;
+    margin: 0px auto 0 auto;
+    padding: 5px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+#fazer_login{
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+#ir_site{
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+#ver_homens{
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+#ver_mulheres{
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+#ir_site,
+#seja_filiado{
+    width:140px;
+    height:auto;
+    margin: 10px 5px 5px 5px;
+    border: solid 1px white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 20px 20px 20px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    box-shadow: 2px 2px 5px #CDCDCD;
+}
+
+
+#ver_homens,
+#ver_mulheres,
+#fazer_login {
+    width:140px;
+    height:80px;
+    margin: 10px 5px 5px 5px;
+    border: solid 1px white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    padding: 50px 20px 0px 20px;
+    box-shadow: 2px 2px 5px #CDCDCD;
+}
+
+.icone{
+    margin-top: 5px;
+    margin-left:4px;
+}
+
+a{ color: #8A0808; font-weight: bold;text-shadow: 1px 1px 0px white;}
+
+a:hover{
+    color:#3A3A3A;
+}
+.termos{
+    font-size: 16px;
+}
+
+.titulo{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    color: black;
+    text-shadow: 1px 1px 0px white;
+}
+
+#slide{
+	width:990px;
+	height:490px;
+    padding: 5px;
+    overflow: hidden;
+	border:solid 2px transparent;
+    margin: 50px auto 30px auto;
+}
+.w3-content{
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:5px;
+    width:950px;
+    height:350px;
+    border:solid 1px transparent;
+}
+.w3-content button{
+    border:0;
+    float:left;
+    height:50px;
+    width:40px;
+    margin-top:150px;
+    color:black;
+    position:absolute;
+    background-color:rgba(255,255,255, 0.5);
+}
+.w3-button:hover{
+    transition:0.5s;
+    color:white;
+    background-color:#505050;
+}
+.w3-content img{
+    float:left;
+    width:290px;
+    height:350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 1px transparent;
+}
+.fotoperfil{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right:10px;
+    border-radius:30px;
+}

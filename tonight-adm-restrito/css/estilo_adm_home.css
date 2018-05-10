@@ -1,0 +1,112 @@
+/**
+    Data: 17/02/2018
+    Objetivo: estilo da pagina adm Home
+**/
+
+#content_bar{
+    width: 900px;
+    height: 360px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 1px white;
+}
+.adicione{
+    width: 350px;
+    height: 330px;
+    padding: 5px;
+    text-align: center;
+    margin-right: 30px;
+    border: solid 1px #CDCDCD;
+}
+.adicione img{
+    width: 220px;
+    height: 220px;
+}
+.adicionar{
+    width: 280px;
+    height: 250px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 30px;
+    border: solid 1px #CDCDCD;
+}
+.adicionar img{
+    width: 220px;
+    height: 220px;
+    margin-top: 10px;
+}
+.imagem_add{
+    width: 330px;
+    height: 230px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: solid 1px black;
+}
+.vizualisar{
+    float: right;
+    width: 400px;
+    height: 340px;
+    padding: 2px;
+    border: solid 1px black;
+}
+.vizualisar img{
+    width: 400px;
+    height: 300px;
+}
+.vizualisar p{
+    margin-top: 5px;
+    margin-left: 2px;
+}
+div.titulo{
+    color: #450404;
+    width: 950px;
+    margin: auto;
+}
+#img_todas{
+    width: 930px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    color: gray;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    overflow-y: scroll;
+    border-radius: 5px;
+    border: solid 1px gray;
+}
+.hide{
+    display: none;
+}
+.add{
+    padding: 2px 5px 2px 5px;
+    border: solid 1px gray;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+.lst_fotos li{
+    float: left;
+    width: 280px;
+    height: 250px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 2px;
+    border: solid 1px gray;
+}
+.lst_fotos li img{
+    width: 280px;
+    height: 180px !important;
+}
+.lst_fotos li p a{
+    color: black;
+}
+.lst_fotos li p a:hover{
+    color: blue;
+}

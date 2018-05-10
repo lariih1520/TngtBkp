@@ -1,0 +1,352 @@
+/** 
+	Data: 07/02/2018
+	Objetivo: Padronização da estrutura, botões e estilização do site.
+ **/
+ 
+*{
+	padding:0;
+	margin:0;
+    list-style: none ;
+    font-family: arial;
+}
+h1{
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+::selection{
+    color: white;
+    background-color: #000;
+}
+::-moz-selection{
+    color: white;
+    background-color: #000;
+}
+body{
+    overflow-x: hidden;
+}
+
+#principal{
+    width:100%;
+    height:auto;
+    min-width: 800px;
+    background-color: #E1E1E1;
+    border: solid 0px black;
+}
+
+nav{
+    width:100%;
+    min-width: 700px;
+    height:25px;
+    padding-top: 3px;
+    padding-bottom: 6px;
+    background-color: #29292A;
+    border: solid 1px black;
+}
+#cetralizar_divs{
+    width: 1330px;
+    margin: auto;
+    border: solid 1px transparent;
+}
+#conteudo{
+    height: auto;
+    float: left;
+}
+.listUsuarios{
+    float: left;
+    width: 135px;
+    padding: 0;
+    margin-top: 10px;
+    list-style: none;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: solid 1px transparent;
+}
+.listUsuarios li{
+    width: 135px;
+    margin-bottom: 10px;
+    border: solid 1px #CDCDCD;
+}
+.listUsuarios li img{
+    width: 135px;
+}
+.listUsuarios li .tonigimg{
+    width: 60px;
+    height: 20px;
+    margin-top: -20px;
+    position: absolute;
+}
+/*___________________*/
+/******* barra *******/
+#barra_superior{
+    margin: auto;
+    width:90%;
+}
+#barra_superior a{
+    float: right;
+    color: white;
+}
+#barra_superior a:hover{
+    transition: 0.5s;
+    color: lightgray;
+}
+.notificacao{/***** TO DO *****/
+    float: right;
+    position: absolute;
+    background-color: white;
+    border: solid 0.5px black;
+}
+
+#barra_superior span{
+    float: right;
+    font-size: 18px;
+    color: #DADADA;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+
+
+/*_________________*/
+/**** Cabecalho ****/
+header{
+    width:100%;
+    min-width: 800px;
+    height:125px;
+    background-color: #8A0808;
+    box-shadow: 0px 0px 5px;
+    border-bottom: solid 5px #000;
+}
+#content_header{
+    width:90%;
+    height: 120px;
+    margin: 0px auto 0px auto;
+    border: solid 1px transparent /*#DADADA*/;
+}
+
+.lst_menu{
+    float: left;
+    width: 638px;
+    height: 50px;
+    margin-top: 70px;
+    margin-left: 10%;
+    border: solid 1px transparent;
+}
+.lst_menu li{
+    float: left;
+    font-size: 20px;
+    margin-right: 2px;
+    padding: 4px 4px 4px 4px;
+    border: solid 1px transparent;
+}
+.lst_menu li a{color: white;}
+.lst_menu li:hover{
+    transition: 0.5s;
+    border-bottom: solid 2px white;
+}
+
+
+/*__________________________*/
+/***** Logotipo do site *****/
+#content_logo{
+    float: left;
+    width:140px;
+    height: 100px;
+    margin-top: 2px;
+    border: solid 1px transparent;
+}
+
+#logo{
+    width:140px;
+    height: 100px;
+    border: solid 1px transparent;
+}
+
+/*____________*/
+/*** botoes ***/
+.botao{
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #DF0101;
+    border: solid 1px darkred;
+    padding: 2px 5px 2px 5px;
+    box-shadow: 1px 1px 5px gray;
+}
+.botao a{
+    color: white;
+    font-size: 20px;
+}
+
+.botao a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.botao:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.content_logar{
+    width: 80px;
+    height: 50px;
+    float: right;
+    margin: 20px;
+    border: solid 1px transparent;
+}
+
+.botao_header{
+    color: white;
+    width: 110px;
+    cursor: pointer;
+    font-size: 22px;
+    margin-left: 28px;
+    border-radius: 5px;
+    background-color: #000;
+    border: solid 1px darkred;
+    padding: 2px 5px 2px 5px;
+    box-shadow: 1px 1px 5px #616161;
+}
+.tipo_login{
+    display: none;
+    width: 142px;
+    height: 50px;
+    margin-top: 4px;
+    margin-right: 5px;
+    text-align: right;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px gray;
+    border: solid 1px gray;
+    padding: 2px 6px 4px 2px;
+    background-color: #FFF;
+}
+
+.tipo_login p{
+    margin-top: 5px;
+}
+
+.tipo_login p a{
+    color: black;
+    font-size: 16px;
+}
+
+.tipo_login p a:hover{
+    text-decoration: underline;
+}
+
+.botao_header a{
+    color: white;
+    font-size: 22px;
+}
+
+.botao_header a:hover{
+    color: #CDCDCD;
+    transition: 0.5s;
+}
+
+.content_logar:hover div.tipo_login{
+    display: inline-block;
+    transition: 0.8s;
+}
+.centro{text-align: center;}
+.lado{ float: left;}
+
+.hide{
+    visibility: hidden;
+}
+
+.desabilit{
+    cursor: not-allowed;.
+}
+
+/*___________*/
+/*** INPUT ***/
+input{
+    padding: 2px 0px 1px 3px;
+    border-radius:4px; 
+    margin-bottom: 10px;
+    border: solid 1px gray;
+    box-shadow: inset 1px 1px 1px;
+}
+select{
+    padding: 2px 0px 1px 3px;
+    border-radius:4px; 
+    margin-bottom: 10px;
+    border: solid 1px gray;
+    box-shadow: inset 1px 1px 1px;
+}
+
+#conteudo{
+    width:1000px;
+    min-width: 800px;
+    height:auto;
+    padding: 1%;
+    margin: 10px auto 5px auto;
+    border: solid 1px #FAFAFA;
+    background-color: white;
+}
+
+.titulo{
+    font-size: 25px;
+}
+.titulo_maior{
+    font-size: 28px;
+    text-align: center;
+}
+.centro{
+    text-align: center;
+}
+.desc{
+    font-size: 15px;
+}
+.alerta{
+    color: white;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px red;
+}
+.carregando{
+    color:#666;
+    display:none;
+}
+
+/*_____________*/
+/*** Imagens ***/
+.icone{
+    width: 25px;
+    height: auto;
+    max-width: 100%;
+}
+
+/*_____________*/
+/**** Rodapé ****/
+footer{
+    width:100%;
+    min-width: 800px;
+    height:auto;
+    background-color: #8A0808;
+    border-bottom: solid 15px #000;
+}
+#content_footer{
+    width: 900px;
+    height:40px;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    border: solid 1px transparent;
+}
+#content_footer p a{
+    color: white;
+    text-decoration: none;
+}
+
+#content_footer p a:hover{
+    transition: 0.5s;
+    color: gray;
+}

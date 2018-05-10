@@ -1,0 +1,120 @@
+/**
+    Data: 24/02/2018
+**/
+   
+#editar_dados{
+    width: 900px;
+    margin: auto;
+}
+#form1 .lst_dados{
+    width: 890px;
+    height: 880px;
+    margin-top: 18px;
+    border: solid 1px white;
+}
+#form2 .lst_dados{
+    width: 890px;
+    height: 674px;
+    margin-top: 18px;
+    border: solid 1px white;
+}
+#form3 .lst_dados{
+    width: 890px;
+    height: 430px;
+    margin-top: 18px;
+    border: solid 1px white;
+}
+.seleciona{
+    float:left;
+    width:400px;
+    height: 220px;
+    margin: 10px;
+    padding-top: 50px;
+    text-align: center;
+    border:solid 1px #CDCDCD;
+    box-shadow: 0px 0px 4px gray;
+}
+.seleciona a{
+    font-size: 24px;
+}
+.seleciona:hover{
+    transition: 0.8s;
+    background-color: #DDDDDD;
+}
+.formas_pag{
+    width: 850px;
+    height: 350px;
+    margin: auto;
+    margin-top: 20px;
+}
+.select_forma_pagar{
+    margin-top: 5px;
+}
+.select_forma_pagar select{
+    font-size: 16px;
+}
+.imgcarregando{
+    margin: auto;
+    text-align: center;
+}
+.lst_dados li{
+    float: left;
+    width: 400px;
+    min-height: 60px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+    padding: 6px 6px 6px 6px;
+    border: solid 1px #CDCDCD;
+    box-shadow: 2px 2px 10px #CDCDCD;
+}
+.lst_dados li p{
+    margin-bottom: 4px;
+}
+
+.botao{
+    margin: auto;
+    clear: both;
+}
+
+textarea{
+    resize: none;
+}
+
+#planos{
+    width: 930px;
+    height: 210px;
+    padding: 10px;
+    margin-top: 5px;
+    border: solid 1px white;
+}
+.tipo_conta{
+    float: left;
+    width: 250px;
+    height: 160px;
+    padding: 20px;
+    margin-left: 10px;; 
+    border: solid 1px gray;
+}
+.tipo_conta p{
+    color: black;
+}
+.titulo{
+    color: black;
+    margin-bottom: 5px;
+}
+.hide{
+    display: none;
+}
+.desabilitado{
+    color: black;
+    background-color: #CDCDCD;
+    border: solid 1px black;
+}
+.selected{
+    border: double 4px red;
+}
+#alerta{
+    color: #8A0808;
+    visibility: hidden;
+    margin-bottom: 2px;
+}

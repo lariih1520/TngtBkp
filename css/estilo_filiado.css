@@ -1,0 +1,205 @@
+/**
+    Data: 20/02/2018
+    Objetivo: estilo pagina perfil acompanhante
+**/
+
+.titulo{
+    margin-bottom: 20px;
+}
+.mensalidade{
+    width: 940px;
+    height: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border: solid 4px #04B431;
+}
+.mensalidade a{
+    color: #04B431;
+    font-style: italic;
+    text-decoration: underline;
+}
+.mensalidade a:hover{
+    color: gray;
+    transition: 0.5s;
+}
+.content_foto_perfil{
+    padding: 8px;
+    margin: auto;
+    width: 900px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: solid 1px white;
+}
+.foto_perfil{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 300px;
+    border: solid 1px red;
+}
+.foto_perfil img{
+    max-width: 310px;
+    height: 300px;
+}
+
+/***************/
+
+.content_dados{
+    padding: 8px;
+    margin: auto;
+    width: 900px;
+    height: 710px;
+    margin-bottom: 10px;
+    border: solid 1px white;
+}
+.lst_dados{
+    width: 890px;
+    height: 510px;
+    margin-top: 18px;
+    border: solid 1px white;
+}
+.lst_dados li{
+    float: left;
+    width: 400px;
+    height: 40px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+    padding: 6px 6px 6px 6px;
+    border: solid 1px #CDCDCD;
+    box-shadow: 2px 2px 10px #CDCDCD;
+}
+.lst_dados li p{
+    margin-bottom: 4px;
+}
+.apresentacao{
+    width: 500px;
+    height: 100px;
+    margin-left: 20px;
+    padding: 6px 6px 6px 6px;
+    border: solid 1px #CDCDCD;
+    box-shadow: 2px 2px 10px #CDCDCD;
+}
+
+/***************/
+
+.content_midia{
+    padding: 8px;
+    margin: auto;
+    width: 900px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: solid 1px white;
+}
+.imgs{
+    float: left;
+    width: 280px;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+    margin-right: 18px;
+    margin-top: 18px;
+    border: solid 1px #CDCDCD;
+}
+.imgs img{
+    margin: auto;
+    height: 290px;
+    max-width: 100%;
+    margin-top: 5px;
+}
+
+.imgs a img{
+    margin: auto;
+    height: 220px;
+    width: 220px;
+    margin-top: 40px;
+}
+
+/***** Videos *****/
+.videos{
+    float: left;
+    max-width: 400px;
+    height: 310px;
+    overflow: hidden;
+    text-align: center;
+    margin-right: 18px;
+    margin-top: 20px;
+    padding-top: 15px;
+    border: solid 1px #CDCDCD;
+}
+
+/***************/
+
+.content_dados_seguranca{
+    padding: 8px;
+    margin: auto;
+    width: 900px;
+    height: auto;
+    margin-bottom: 10px;
+    border: solid 1px white;
+}
+
+/********/
+.sua_conta{
+    padding: 8px;
+    margin: auto;
+    width: 950px;
+    height: 250px;
+    margin-bottom: 10px;
+    border: solid 1px white;
+}
+
+.tipo_conta{
+    float: left;
+    width: 280px;
+    height: 120px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    border: double 4px #CDCDCD;
+    box-shadow: 0px 0px 6px #ADADAD;
+}
+.tipo_conta p{
+    color: black;
+    font-size: 18px;
+}
+.tipo_conta p.titulo{
+    color: black;
+    text-shadow: 0px 0px 4px #8A0808;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.tipo_conta p.valor{
+    font-size: 20px;
+}
+.clear{
+    float: left;
+    clear: both;
+    width: 900px;
+    height: 1px;
+    margin-bottom: 5px;
+}
+#delete_conta a{
+    color: black;
+}
+#delete_conta a p{
+    margin-bottom: 10px;
+}
+#delete_conta{
+    color: black;
+    width: 940px;
+    height: 20px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: solid 1px #CDCDCD;
+}
+.hiden{
+    display: none;
+}
+

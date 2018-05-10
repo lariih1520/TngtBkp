@@ -1,0 +1,211 @@
+/*** 
+	Data: 17/02/2018
+	Objetivo: estilo pagina filiado
+ ***/
+
+#erro{
+    font-size: 16px;
+    animation-name: erro;
+    animation-duration: 2s;
+}
+.nomeReal{
+    color: gray;
+    font-size: 14px;
+}
+
+@keyframes erro {
+    0%   {
+        color: #8A0808;
+        border: solid 2px black;
+        box-shadow: 0px 0px 4px black;
+    }
+    50%  {
+        color: #8A0808;
+        border: solid 2px black;
+        box-shadow: 0px 0px 4px black;
+        text-shadow: 0px 0px 10px #CDCDCD;
+    }
+    75% {
+        color: #8A0808;
+        border: solid 2px black;
+        box-shadow: 0px 0px 4px black;
+        text-shadow: 0px 0px 2px #CDCDCD;
+    }
+    100% {
+        display: none;
+    }
+}
+.margembottom{
+    clear: both;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.promocao{
+    color: white;
+    clear: both;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #8A0808;
+}
+.titulo_promocao{
+    color: white;
+    font-size: 24px;
+}
+.detalhepromocao{
+    color: #CDCDCD;
+    font-size: 16px;
+}
+#estilo{
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 1px #CDCDCD;
+    box-shadow: inset 0px 0px 5px #CDCDCD;
+}
+.titulo{
+    text-align: center;
+    margin-bottom: 30px;
+}
+input{font-size: 17px;}
+select{font-size: 17px;}
+.centro{font-size: 18px;}
+
+.content_dados_1{
+    margin: auto;
+    width: 950px;
+    height: 600px;
+    border: solid 1px white;
+}
+.content_dados_2{
+    margin: auto;
+    width: 950px;
+    min-height: 600px;
+    border: solid 1px white;
+}
+.sobre_pag{
+    width: 940px;
+    margin: auto;
+    height: 40px;
+    font-size: 20px;
+}
+
+.escolha{
+    animation-name: escolher;
+    animation-duration: 2s;
+}
+@keyframes escolher {
+    0%   {
+        border: solid 2px black;
+        box-shadow: 0px 0px 5px black;
+    }
+    50%  {
+        border: solid 2px #8A0808;
+        box-shadow: 0px 0px 15px #8A0808;
+    }
+    75% {
+        border: solid 1px black;
+        box-shadow: 0px 0px 5px black;
+    }
+    100% {
+        border: double 4px black;
+        box-shadow: 0px 0px 6px black;
+    }
+}
+.tipo_conta{
+    float: left;
+    width: 280px;
+    height: 120px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    border: double 4px #CDCDCD;
+    box-shadow: 0px 0px 6px #ADADAD;
+}
+
+.tipo_conta p{
+    color: black;
+    font-size: 18px;
+}
+.tipo_conta p.titulo{
+    color: black;
+    text-shadow: 0px 0px 4px #8A0808;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.tipo_conta p.valor{
+    font-size: 20px;
+}
+.forma_pag{
+    float: left;
+    clear: both;
+    width: 280px;
+    height: 80px;
+    padding: 10px;
+    margin-left: 10px;
+    border: solid 1px transparent;
+}
+.selecionado{
+    border: solid 2px red;
+}
+.forma_letras{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.lst_dados_1{
+    margin-top: 30px;
+}
+.lst_dados_1 li{
+    float: left;
+    width: 280px;
+    height: 50px;
+    padding: 8px;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: solid 1px #FFF;
+}
+.right{
+    float: right;
+    margin-right: 20px;
+}
+
+.termos{
+    float: left;
+    clear: both;
+    width: 700px;
+    height:250px;
+    padding: 8px;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 16px;
+    overflow-y: scroll;
+    font-family: arial;
+    border: solid 1px #CDCDCD; 
+}
+.botao{
+    float: left;
+    clear: both;
+    margin-top: 10px;
+}
+.desabilitado{
+    color: gray;
+    border: solid 1px #CDCDDC;
+    background-color: #CDCDCD;
+}
+.termos_confirmar{
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
